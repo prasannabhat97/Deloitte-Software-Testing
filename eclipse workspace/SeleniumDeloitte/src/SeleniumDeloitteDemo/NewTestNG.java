@@ -13,7 +13,7 @@ public class NewTestNG {
 	@Test
 	public void verifyHomePage() {
 		System.out.println("Lounching Chrome !!");
-		System.setProperty("webdriver.chrome.driver", "E://eclipse//chromedriver_win32/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E://eclipse workspace//chromedriver_win32/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get(baseUrl);
 		String expected="Google";
